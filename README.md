@@ -148,20 +148,7 @@ pip install -r reqs_optional/requirements_optional_langchain.gpllike.txt
 
 <span class="pl-c"><span class="pl-c">#</span> choose up to 32768 if have enough GPU memory:</span>
 python generate.py --base_model=TheBloke/Mistral-7B-Instruct-v0.2-GGUF --prompt_type=mistral --max_seq_len=4096</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/h2oai/h2ogpt.git
-cd h2ogpt
-pip install -r requirements.txt
-pip install -r reqs_optional/requirements_optional_langchain.txt
-
-pip uninstall llama_cpp_python llama_cpp_python_cuda -y
-pip install -r reqs_optional/requirements_optional_llamacpp_gpt4all.txt --no-cache-dir
-
-pip install -r reqs_optional/requirements_optional_langchain.urls.txt
-# GPL, only run next line if that is ok:
-pip install -r reqs_optional/requirements_optional_langchain.gpllike.txt
-
-# choose up to 32768 if have enough GPU memory:
-python generate.py --base_model=TheBloke/Mistral-7B-Instruct-v0.2-GGUF --prompt_type=mistral --max_seq_len=4096" tabindex="0" role="button">
+   
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
     <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
 </svg>
